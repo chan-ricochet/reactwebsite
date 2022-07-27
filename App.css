@@ -1,0 +1,219 @@
+
+.align {
+	margin-top: 100px;
+}
+
+.align2 {
+	margin-top: 75px;
+}
+
+.center {
+	text-align:center;
+}
+
+.home {
+	color:green;
+	text-align:center;
+	background-color:black;
+	width:100%;
+}
+
+.title {
+	line-height: normal;
+	height: 60px;
+	margin-top:17px;
+	display:inline-block;
+	
+}
+
+body {
+	background-image:url(./doctorbg3.jpg);
+	  width: 100%;
+
+}
+
+p {
+
+	text-align:center;
+	font-size:10px;
+}
+
+img {
+	width:20%;
+}
+
+h4, h5 {
+	font-family:'Times New Roman';
+	text-align:center;
+}
+
+.card {
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+	display: block;
+	width:100%
+}
+
+
+.small {
+	width:50%;
+	margin-left:auto;
+	margin-right:auto
+}
+
+.small1 {
+	width:100%;
+}
+
+.container1 {
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.container2 {
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+table {
+  width: 60%;
+}
+
+tr:nth-child(even){background-color: lightgray}
+
+th {
+  background-color: purple;
+  color: white;
+}
+
+.btn-group button {
+  background-color: white; 
+  border: black;
+  color: black; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  transform: translate(0%, 50%);
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+.btn-group button:hover {
+  background-color: black;
+  color: white;
+}
+
+input.right {
+	float:right;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+	height:50px;
+	width:auto;
+}
+
+.card-img-top {
+width: 100%;
+height: 45vh;
+object-fit: cover;
+}
+
+.card-text {
+	height: 20vh;
+	object-fit: cover;
+	line-height: 100px;
+}
+
+.span-card-text {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size:14px;
+}
+
+.justify-content-between {
+	flex-shrink: 0;
+	flex-grow:1;
+}
+
+.rec-item-wrapper {
+  height: 100%;
+  width: auto;
+}
+
+.slideImage {
+  max-height: 600px;
+  width: auto;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.d-md-block {
+	height:100px;
+	width:100%;
+	margin-left:-15%;
+}
+
+.stats-heading {
+	font-size:xx-large;
+	color:orangered;
+	font-family:"Lucida Console";
+}
+
+.stats-number {
+	font-family:"Papyrus";
+	font-size:xx-large;
+}
+
+.extra-margin {
+	margin-left:25px;
+}
+
+.accordion-item-header {
+	background-color:red;
+}
+
+.lab-test-container1 {
+	width:60%;
+}
+
+.lab-test-container2 {
+	margin-left:15%;
+	width:25%;
+	background-color:lightblue;
+	border-style:solid;
+	border-radius:15px;
+	border-color:black;
+}
+
+.right-button {
+	float:right;
+}
+
+.center-button {
+	float:center;
+}
+
+.custom-width {
+	width:70px;
+}
